@@ -9,7 +9,7 @@ function _dl() {
 	[ -d "$docs" ] || mkdir "$docs"
 
 	curl -L "https://api.github.com/repos/$1/tarball" \
-		-H "Authorization: token $HOMEBREW_GITHUB_API_TOKEN" \
+		-H "Authorization: token $GITHUB_API_TOKEN" \
 		| tar xz --strip=1 -C "$tmp"/
 
 	rsync -avh "$tmp"/"$rtp" --include='after/***' \
