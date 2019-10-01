@@ -2,6 +2,10 @@
 
 Collection of awesome color schemes for Vim, merged for quick use.
 
+# dtzWill "fork"
+
+Not intended for anyone's use, perhaps including my own :).  Look to upstream!
+
 ## Installation
 
 Use your favorite package-manager to install, and enjoy!
