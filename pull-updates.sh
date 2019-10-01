@@ -35,7 +35,7 @@ function _main() {
 	_dl cseelus/vim-colors-lucid
 	_dl danilo-augusto/vim-afterglow
 	_dl dikiaap/minimalist
-	_dl dracula/vim
+	# _dl dracula/vim
 	_dl endel/vim-github-colorscheme
 	_dl fcpg/vim-orbital
 	_dl fmoralesc/molokayo
